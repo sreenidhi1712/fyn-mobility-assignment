@@ -1,0 +1,16 @@
+.scroll-wrapper {
+    width: 100%;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+
+.scroll-wrapper img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
