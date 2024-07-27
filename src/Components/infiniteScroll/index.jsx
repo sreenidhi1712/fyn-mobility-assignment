@@ -119,6 +119,8 @@ const InfiniteScroll = () => {
 
 
     return (
+        <>
+       <h3>Infinite Scrolling Image Gallery</h3>
         <div className="scroll-wrapper">
             {
                 data.map(item => <div key={item.id} className="gallery-image">
@@ -126,6 +128,7 @@ const InfiniteScroll = () => {
                 </div>)
             }
         </div>
+        </>
     )
 }
 
